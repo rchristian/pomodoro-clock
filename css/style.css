@@ -1,42 +1,42 @@
 body {
-		background-color: rgba(255, 0, 0, 1);
-		color: #000;
-		font-family: "Roboto", Arial, sans-serif;
-		font-weight: 100;
+    background-color: rgba(255, 0, 0, 1);
+    color: #000;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 100;
 }
 
 .page-header {
-		border: none;
-		margin-bottom: 40px;
+    border: none;
+    margin-bottom: 40px;
 }
 
 h1 {
-		font-weight: 100;
+    font-weight: 100;
 }
 
-#session {
-		margin-right: 70px;
+.session {
+    margin-right: 70px;
 }
 
-#break {
-		margin-left: 70px;
+.break {
+    margin-left: 70px;
 }
 
 .inlineb {
-		display: inline-block;
+    display: inline-block;
 }
 
-#custom p {
-		font-size: 20px;
+.custom p {
+    font-size: 20px;
 }
 
-#timer-count {
-		font-size: 160px;
+.timer-count {
+    font-size: 160px;
 }
 
 .btn {
-		background: none;
-		border: none;
+    background: none;
+    border: none;
 }
 
 .btn-default,
@@ -45,10 +45,10 @@ h1 {
 .btn-default:focus,
 .btn-default:active:focus,
 .btn-default:active:hover {
-		background: none;
-		border: none;
+    background: none;
+    border: none;
 }
 
 .btn-lg {
-		font-size: 32px;
+    font-size: 32px;
 }

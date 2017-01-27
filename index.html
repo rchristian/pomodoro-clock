@@ -1,37 +1,29 @@
 <!DOCTYPE html>
-<html >
-  <head>
+<html>
+
+<head>
     <meta charset="UTF-8">
     <title>Pomodoro Clock</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
-    
-    
     <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
-  </head>
-
-  <body>
-
+<body>
     <div class="container">
-		<header class="page-header text-center">
-				<h1>Pomodoro Clock</h1>
-		</header>
-</div>
-
-<div class="container">
-		<div id="custom" class="text-center">
-				<div id="session" class="inlineb">
-						<p id="session-head">Session</p>
-						<button type="button" id="up-session" class="btn btn-default inlineb" aria-label="Increase Session Time"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button>
+        <header class="page-header text-center">
+            <h1>Pomodoro Clock</h1>
+        </header>
+    </div>
+    <div class="container">
+        <div id="custom" class="custom text-center">
+            <div id="session" class="session inlineb">
+                <p id="session-head">Session</p>
+                <button type="button" id="up-session" class="btn btn-default inlineb" aria-label="Increase Session Time"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button>
 					<p id="session-time" class="inlineb">25</p>
 				<button  type="button" id="down-session" class="btn btn-default inlineb" aria-label="Decrease Session Time"><span class="glyphicon glyphicon-minus" aria-hidden="true"></button>
 		</div>
-		<div id="break" class="inlineb">
+		<div id="break" class="break inlineb">
 			<p id="break-head">Break</p>
 				<button  type="button" id="up-break" class="btn btn-default inlineb" aria-label="Increase Break Time"><span class="glyphicon glyphicon-plus" aria-hidden="true"></button>
 					<p id="break-time" class="inlineb">5</p>
@@ -41,33 +33,24 @@
 </div>
 
 <div class="container">
-	<div id="timer-count" class="text-center">
+	<div id="timer-count" class="timer-count text-center">
 		<span id="minutes">25</span>:<span id="seconds">00</span>
-	</div>
-</div>
-
-<div class="container">
-	<div id="controls" class="text-center">
-		<button type="button" id="start" title="Start Timer" class="btn btn-default btn-lg" aria-label="Start Timer"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></button>
+            </div>
+        </div>
+        <div class="container">
+            <div id="controls" class="text-center">
+                <button type="button" id="start" title="Start Timer" class="btn btn-default btn-lg" aria-label="Start Timer"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></button>
 		
 		<button  type="button" id="reset" title="Reset Timer" class="btn btn-default btn-lg" aria-label="Reset Timer"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
-		
-		<button type="button" id="mute" title="Mute Alarm" class="btn btn-default btn-lg" aria-label="Mute Alarm"><span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span></button>
-			
-		<button type="button" id="loop" title="Turn Off Loop" class="btn btn-default btn-lg" aria-label="Turn Off Loop"><span class=" glyphicon glyphicon-repeat" aria-hidden="true"></span></button>
-	</div>
-</div>
-
-<audio id="tone">
-	<source src="http://www.myinstants.com/media/sounds/electronic_chime.mp3" type="audio/mpeg">
-	Your browser does not support the audio element.
-</audio>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
+                <button type="button" id="mute" title="Mute Alarm" class="btn btn-default btn-lg" aria-label="Mute Alarm"><span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span></button>
+                <button type="button" id="loop" title="Turn Off Loop" class="btn btn-default btn-lg" aria-label="Turn Off Loop"><span class=" glyphicon glyphicon-repeat" aria-hidden="true"></span></button>
+            </div>
+        </div>
+        <audio id="tone">
+            <source src="http://www.myinstants.com/media/sounds/electronic_chime.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+        </audio>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script src="js/index.js"></script>
+</body>
 
-    
-    
-    
-  </body>
 </html>
