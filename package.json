@@ -1,0 +1,14 @@
+{
+  "name": "Pomodoro Timer",
+  "description": "A classic Pomodoro timer with customizabe work and break times.",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "~4.14.0",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.2"
+  }
+}
