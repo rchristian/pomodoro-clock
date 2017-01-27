@@ -5,8 +5,6 @@ var path = require("path");
 
 var app = express();
 
-app.use(bodyParser.json());
-
 app.use(morgan("combined", {
     skip: function(req, res) {
         return res.statuscode < 400;
@@ -14,7 +12,7 @@ app.use(morgan("combined", {
 }));
 
 app.use(express.static(path.join(__dirname, "app")));
-app.use(favicon(__dirname + "/app/assets/imgs/favicon.ico"));
+//app.use(favicon(__dirname + "/app/assets/imgs/favicon.ico"));
 
 app.use(function(req, res, next) {
     console.log("/" + req.method);

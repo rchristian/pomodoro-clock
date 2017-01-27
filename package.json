@@ -1,5 +1,5 @@
 {
-  "name": "Pomodoro Timer",
+  "name": "pomodoro-timer",
   "description": "A classic Pomodoro timer with customizabe work and break times.",
   "version": "1.0.0",
   "scripts": {
