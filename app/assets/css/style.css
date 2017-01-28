@@ -10,28 +10,8 @@ body {
     margin-bottom: 40px;
 }
 
-h1 {
-    font-weight: 100;
-}
-
-.session {
-    margin-right: 10px;
-}
-
-.break {
-    margin-left: 10px;
-}
-
 .inlineb {
     display: inline-block;
-}
-
-.custom p {
-    font-size: 20px;
-}
-
-.timer-count {
-    font-size: 160px;
 }
 
 .btn {
@@ -49,17 +29,87 @@ h1 {
     border: none;
 }
 
-.btn-lg {
-    font-size: 32px;
-}
-
-
-@media only screen and (min-width : 320px) {
+@media only screen and (min-width : 320px) and (orientation:portrait){
+    .container {
+        padding-top: 150px;
+    }
     h1 {
         display: none;
     }
 
-    .session, .break {
+    .session {
+        margin-right: 25px;
+    }
+
+    .break {
+        margin-left: 25px;
+    }
+
+    .custom p {
+        font-size: 45px;
+    }
+
+    .timer-count {
+        font-size: 210px;
+    }
+
+    .controls span {
+        font-size: 50px;
+    }
+
+    button span {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width : 320px) and (orientation:landscape){
+
+    h1 {
+        display: none;
+    }
+
+    .session {
+        margin-right: 25px;
+    }
+
+    .break {
+        margin-left: 25px;
+    }
+
+    .custom {
+        margin-top: -30px;
+    }
+
+    .custom p {
+        font-size: 25px;
+    }
+
+    .timer-count {
+        margin-top: -20px;
+        font-size: 150px;
+    }
+
+    .controls {
+        margin-top: -10px;
+    }
+
+    .controls span {
+        font-size: 35px;
+    }
+
+    button span {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width : 768px)  and (orientation:landscape){
+    h1 {
+        display: none;
+    }
+
+    .session {
         margin-right: 25px;
     }
 
@@ -72,23 +122,81 @@ h1 {
     }
 
     .timer-count {
-        font-size: 210px;
+        font-size: 250px;
     }
 
-    .btn-lg {
+    .controls span {
         font-size: 50px;
     }
 
     button span {
         font-size: 20px;
+        padding-bottom: 20px;
     }
 }
 
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 992px) {
+    h1 {
+        display: inline-block;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
 
+    .session {
+        margin-right: 10px;
+    }
+
+    .break {
+        margin-left: 10px;
+    }
+
+    .custom p {
+        font-size: 20px;
+    }
+
+    .timer-count {
+        font-size: 160px;
+    }
+
+    button span {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .controls span {
+        font-size: 40px;
+    }
 }
 
+@media only screen and (min-width : 1200px) {
+    h1 {
+        display: inline-block;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
 
-@media only screen and (min-width : 768px) {
+    .session {
+        margin-right: 25px;
+    }
 
+    .break {
+        margin-left: 25px;
+    }
+
+    .custom p {
+        font-size: 25px;
+    }
+
+    .timer-count {
+        font-size: 160px;
+    }
+
+    button span {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .controls button span {
+        font-size: 40px;
+    }
 }
