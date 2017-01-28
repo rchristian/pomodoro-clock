@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var audio = $("audio")[0];
+    var audio = $("#tone");
     var timer;
 
     var minutes;
