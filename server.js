@@ -12,7 +12,7 @@ app.use(morgan("combined", {
 }));
 
 app.use(express.static(path.join(__dirname, "app")));
-//app.use(favicon(__dirname + "/app/assets/imgs/favicon.ico"));
+app.use(favicon(__dirname + "/app/assets/img/favicon.ico"));
 
 app.use(function(req, res, next) {
     console.log("/" + req.method);
