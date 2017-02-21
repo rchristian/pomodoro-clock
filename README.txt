@@ -1,3 +1,0 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/r_christian/pen/zvQeMP.
-
- A customizable pomodoro timer. Users can adjust both work and break times using the + and - buttons. The timer loops through work and break sessions automatically, sounding an alarm after each. After four work sessions, and extra five minutes is added to the set break time. Both the alarm and the automatic looping feature can be toggled off and on. The timer can also be paused and reset.
