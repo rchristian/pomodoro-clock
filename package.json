@@ -2,6 +2,9 @@
   "name": "pomodoro-timer",
   "description": "A classic Pomodoro timer with customizabe work and break times.",
   "version": "1.0.0",
+    "engines": {
+    "node": "^6.11.1"
+  },
   "scripts": {
     "start": "node server.js"
   },
