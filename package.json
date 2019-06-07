@@ -2,7 +2,7 @@
   "name": "pomodoro-timer",
   "description": "A classic Pomodoro timer with customizabe work and break times.",
   "version": "1.0.0",
-    "engines": {
+  "engines": {
     "node": "^6.11.1"
   },
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "private": true,
   "dependencies": {
-    "express": "~4.14.0",
+    "express": "^4.17.1",
     "morgan": "^1.7.0",
     "serve-favicon": "^2.3.2"
   }
